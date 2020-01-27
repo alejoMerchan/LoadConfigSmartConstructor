@@ -1,12 +1,4 @@
 
-import java.util.Properties
-
-import cats.effect.IO
-import com.endava.flink.twitter.JobException
-import com.endava.flink.twitter.sink.MongoSink.MongoSinkConfig
-import com.typesafe.config.ConfigFactory
-import org.apache.flink.configuration.Configuration
-
 object GeneralConfig {
 
   def apply(args: Array[String]): GeneralConfig = {
