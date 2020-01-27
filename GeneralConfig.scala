@@ -1,4 +1,3 @@
-package com.endava.flink.twitter.config
 
 import java.util.Properties
 
